@@ -333,7 +333,7 @@ if [ $USE_CMAKE -eq 1 ]; then
 
   ### CMAKE ###
 
-  print_or_run cp -v $BUILD_DIR/compiler-rt/compiler-rt/build/lib/darwin/*.a ${CLANG_DARWIN_LIB_DIR}
+  # print_or_run cp -v $BUILD_DIR/compiler-rt/compiler-rt/build/lib/darwin/*.a ${CLANG_DARWIN_LIB_DIR}
   print_or_run cp -v $BUILD_DIR/compiler-rt/compiler-rt/build/lib/darwin/*.dylib ${CLANG_DARWIN_LIB_DIR}
 
   ### CMAKE END ###
